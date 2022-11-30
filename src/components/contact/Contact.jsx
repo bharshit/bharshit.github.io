@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
-import { SiUpwork } from 'react-icons/Si'
-import {  SiFiverr } from 'react-icons/Si'
+import { SiUpwork } from 'react-icons/si'
+import {  SiFiverr } from 'react-icons/si'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 

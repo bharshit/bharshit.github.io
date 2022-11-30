@@ -36,6 +36,11 @@ function Services() {
 
             <li>
               <BiCheck className='service__list-icon'/>
+              <p>Admin panel </p>
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
               <p>Full Source code </p>
             </li>
 
@@ -91,7 +96,12 @@ function Services() {
 
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Design customization with color branding</p>
+              <p>Design customization </p>
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Color branding</p>
             </li>
 
             <li>
