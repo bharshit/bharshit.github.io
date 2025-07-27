@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { HiDownload, HiChatBubbleBottomCenterText } from 'react-icons/hi2'
+import { HiDownload, HiChatBubbleBottomCenterText } from 'react-icons/hi'
 import CV from '../../assests/resume.pdf'
 
 const CTA = () => {
