@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { HiDownload, HiChatBubbleBottomCenterText } from 'react-icons/hi'
+import { BiDownload, BiChat } from 'react-icons/bi'
 import CV from '../../assests/resume.pdf'
 
 const CTA = () => {
@@ -39,7 +39,7 @@ const CTA = () => {
         {isDownloading ? (
           <div className="loading"></div>
         ) : (
-          <HiDownload className="btn-icon" />
+          <BiDownload className="btn-icon" />
         )}
         Download CV
       </motion.a>
@@ -51,7 +51,7 @@ const CTA = () => {
         whileHover="hover"
         whileTap="tap"
       >
-        <HiChatBubbleBottomCenterText className="btn-icon" />
+        <BiChat className="btn-icon" />
         Let's Talk
       </motion.a>
     </div>
